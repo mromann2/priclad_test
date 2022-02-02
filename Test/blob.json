@@ -4,8 +4,8 @@
     "ru_RU": "тест",
     "en_EN": "test"
   },
-  "ver": 4,
-  "verStr": "1.1.4",
+  "ver": 5,
+  "verStr": "1.1.5",
   "content": {
     "roles": [],
     "menus": [],
@@ -75,7 +75,7 @@
           "meta": {
             "mnemo": "Test.55",
             "title": {
-              "ru_RU": "55",
+              "ru_RU": "55_1",
               "en_EN": "55"
             },
             "description": {}
@@ -94,7 +94,7 @@
         "meta": {
           "mnemo": "Test.55",
           "title": {
-            "ru_RU": "55",
+            "ru_RU": "55_1",
             "en_EN": "55"
           },
           "description": {}
