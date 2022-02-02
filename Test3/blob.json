@@ -4,28 +4,44 @@
     "ru_RU": "тест3",
     "en_EN": "test3"
   },
-  "ver": 15,
-  "verStr": "1.1.15",
+  "ver": 19,
+  "verStr": "1.1.19",
   "content": {
     "roles": [],
     "menus": [],
-    "constants": [],
-    "enums": [
+    "constants": [
       {
-        "type": {
-          "mnemo": "primitive.plan"
+        "value": {
+          "meta": {
+            "mnemo": "Test3.1",
+            "title": {
+              "ru_RU": "01",
+              "en_EN": "1"
+            },
+            "description": {}
+          },
+          "type": {
+            "mnemo": "primitive.text"
+          },
+          "properties": {
+            "unlimited": "false",
+            "length": "14"
+          },
+          "required": false
         },
-        "enum": [],
+        "periodical": false,
         "grants": {},
         "meta": {
-          "mnemo": "Test3.Tipuchrezhdeniya",
+          "mnemo": "Test3.1",
           "title": {
-            "ru_RU": "Тип учреждения",
-            "en_EN": "Tip uchrezhdeniya"
+            "ru_RU": "01",
+            "en_EN": "1"
           },
           "description": {}
         }
-      },
+      }
+    ],
+    "enums": [
       {
         "type": {
           "mnemo": "primitive.text"
@@ -37,6 +53,25 @@
           "title": {
             "ru_RU": "11",
             "en_EN": "11"
+          },
+          "description": {}
+        }
+      },
+      {
+        "type": {
+          "mnemo": "primitive.plan"
+        },
+        "enum": [
+          "Test3.AVTONOMNOE",
+          "Test3.BUDGETNOE",
+          "Test3.KAZENNOE"
+        ],
+        "grants": {},
+        "meta": {
+          "mnemo": "Test3.TipUchrezhdeniya",
+          "title": {
+            "ru_RU": "Тип Учреждения",
+            "en_EN": "Tip Uchrezhdeniya"
           },
           "description": {}
         }
@@ -61,15 +96,15 @@
           "selectbyrequisite": false,
           "usefor": "ForElement",
           "meta": {
-            "mnemo": "Test3.organization.TipOrganizacii",
+            "mnemo": "Test3.organization.plantype",
             "title": {
-              "ru_RU": "Тип организации",
-              "en_EN": "Tip organizacii"
+              "ru_RU": "plantype",
+              "en_EN": "plantype"
             },
             "description": {}
           },
           "type": {
-            "mnemo": "Test3.Tipuchrezhdeniya"
+            "mnemo": "Test3.TipUchrezhdeniya"
           },
           "properties": {},
           "required": false
