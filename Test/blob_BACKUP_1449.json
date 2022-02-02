@@ -75,7 +75,11 @@
           "meta": {
             "mnemo": "Test.55",
             "title": {
+<<<<<<< .merge_file_a30992
+              "ru_RU": "55_1",
+=======
               "ru_RU": "55_2",
+>>>>>>> .merge_file_a25024
               "en_EN": "55"
             },
             "description": {}
@@ -94,7 +98,11 @@
         "meta": {
           "mnemo": "Test.55",
           "title": {
+<<<<<<< .merge_file_a30992
+            "ru_RU": "55_1",
+=======
             "ru_RU": "55_2",
+>>>>>>> .merge_file_a25024
             "en_EN": "55"
           },
           "description": {}

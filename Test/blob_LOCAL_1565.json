@@ -1,7 +1,7 @@
 {
   "mnemo": "Test",
   "name": {
-    "ru_RU": "ГІГҐГ±ГІ",
+    "ru_RU": "тест",
     "en_EN": "test"
   },
   "ver": 5,
@@ -75,7 +75,7 @@
           "meta": {
             "mnemo": "Test.55",
             "title": {
-              "ru_RU": "55_2",
+              "ru_RU": "55_1",
               "en_EN": "55"
             },
             "description": {}
@@ -94,7 +94,7 @@
         "meta": {
           "mnemo": "Test.55",
           "title": {
-            "ru_RU": "55_2",
+            "ru_RU": "55_1",
             "en_EN": "55"
           },
           "description": {}
@@ -143,11 +143,11 @@
       "meta": {
         "mnemo": "Test.organization",
         "title": {
-          "ru_RU": "Г“Г·ВёГІГ­Г Гї Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГї",
+          "ru_RU": "Учётная организация",
           "en_EN": "Accounting Organization"
         },
         "description": {
-          "ru_RU": "Г‘ГЇГ°Г ГўГ®Г·Г­ГЁГЄ ГіГ·ВёГІГ­Г»Гµ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГ©",
+          "ru_RU": "Справочник учётных организаций",
           "en_EN": "Directory of accounting organizations"
         }
       }
@@ -163,11 +163,11 @@
     "reports": [],
     "journals": [],
     "operationScript": {
-      "title": "Г‘ГЄГ°ГЁГЇГІ Г®ГЇГҐГ°Г Г¶ГЁГ©",
+      "title": "Скрипт операций",
       "sources": ""
     },
     "constantScript": {
-      "title": "Г‘ГЄГ°ГЁГЇГІ ГЄГ®Г­Г±ГІГ Г­ГІ",
+      "title": "Скрипт констант",
       "sources": ""
     }
   },

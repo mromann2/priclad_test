@@ -75,7 +75,11 @@
           "meta": {
             "mnemo": "Test.55",
             "title": {
+<<<<<<< HEAD
+              "ru_RU": "55_1",
+=======
               "ru_RU": "55_2",
+>>>>>>> 8e40fbc8e8db328f287d2239d610bc2ce87fe9df
               "en_EN": "55"
             },
             "description": {}
@@ -94,7 +98,11 @@
         "meta": {
           "mnemo": "Test.55",
           "title": {
+<<<<<<< HEAD
+            "ru_RU": "55_1",
+=======
             "ru_RU": "55_2",
+>>>>>>> 8e40fbc8e8db328f287d2239d610bc2ce87fe9df
             "en_EN": "55"
           },
           "description": {}
