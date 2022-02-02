@@ -4,8 +4,8 @@
     "ru_RU": "тест3",
     "en_EN": "test3"
   },
-  "ver": 20,
-  "verStr": "1.1.20",
+  "ver": 21,
+  "verStr": "1.1.21",
   "content": {
     "roles": [],
     "menus": [],
@@ -66,6 +66,36 @@
           "title": {
             "ru_RU": "02",
             "en_EN": "2"
+          },
+          "description": {}
+        }
+      },
+      {
+        "value": {
+          "meta": {
+            "mnemo": "Test3.3",
+            "title": {
+              "ru_RU": "03",
+              "en_EN": "3"
+            },
+            "description": {}
+          },
+          "type": {
+            "mnemo": "primitive.text"
+          },
+          "properties": {
+            "unlimited": "false",
+            "length": "14"
+          },
+          "required": false
+        },
+        "periodical": false,
+        "grants": {},
+        "meta": {
+          "mnemo": "Test3.3",
+          "title": {
+            "ru_RU": "03",
+            "en_EN": "3"
           },
           "description": {}
         }
